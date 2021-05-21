@@ -1,0 +1,59 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (min-width: 450px) {
+	.card {
+		width: 50%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.card {
+		width: 33.333%;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.card {
+		width: 25%;
+	}
+}
+
+.app {
+    max-width: 1000px;
+    margin: 50px auto;
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+    background: #fafafa;
+    padding: 15px 0;
+}
+.card {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    transition: box-shadow .3s ease-in-out;
+    text-align: center;
+    margin: 0 auto;
+    background: white;
+    font-family: "Open Sans";
+    transition: .3s ease-in;
+}
+.card:hover {
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, .15);
+}
+
+.card.marked{
+    border: 2px solid crimson;
+}
+
+.card-img{
+    display: block;
+    width: 100%;
+}
+.card img {
+    width: 100%;
+}
