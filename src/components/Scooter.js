@@ -1,3 +1,5 @@
+import React from "react";
+
 function Scooter(props) {
   const classes = ["card"];
   if (props.scooter.marked) {
